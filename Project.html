@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #B6E496;
+        }
+
+        .rcorners1 {
+            border-radius: 25px;
+            background: #A5FF67;
+            padding: 20px;
+            width: 50px;
+            height: 20px;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin: 25px 100px;
+
+
+            /* add box-shadow effect */
+            transition: box-shadow 0.3s ease;
+            box-shadow: 0 0 5px #888;
+        }
+
+        .rcorners1:hover {
+            box-shadow: 0 0 15px #888;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 50px;
+            justify-items: center;
+            margin-top: 50px;
+        }
+
+        img {
+            border-radius: 50% / 70%;
+            border: 30px solid #D8FFBD;
+            width: 300px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 500px;
+        }
+
+        .text {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <a href="Home.html">
+            <div class="rcorners1">Home</div>
+        </a>
+        <a href="About.html">
+            <div class="rcorners1">About</div>
+        </a>
+        <a href="Project.html">
+            <div class="rcorners1">Project</div>
+        </a>
+        <a href="Contact.html">
+            <div class="rcorners1">Contact</div>
+        </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="project-container">
+        <a href="Project_1.html">
+            <div class="project">
+                <img src="Assets/jieyi1.png" alt="Project 1">
+                <h1 id="myHeading_1"> Project 1: Design Fundamental </h1>
+            </div>
+        </a>
+        <a href="Project_2.html">
+            <div class="project">
+                <img src="Assets/jieyi2.png" alt="Project 2" style="margin-top: 20%;">
+                <h1 id="myHeading_1"> Project 2: Port Folio Design </h1>
+            </div>
+        </a>
+        <a href="Project_3.html">
+            <div class="project">
+                <img src="Assets/jieyi3.png" alt="Project 3" style='margin-top: 20%'>
+                <h1 id="myHeading_1">Project 3: BB Koi milk Tea</h1>
+            </div>
+        </a>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <div class="navbar">
+        <ul>
+            <li><a href="/Twitter.html">Twitter</a></li>
+        </ul>
+        <ul>
+            <li><a href="/Instagram.html">Instagram</a></li>
+        </ul>
+        <ul>
+            <li><a href="/Discord.html">Discord</a></li>
+        </ul>
+    </div>
+</footer>
+
+</html>

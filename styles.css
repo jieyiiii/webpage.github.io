@@ -1,0 +1,147 @@
+body {
+    background-color: #A1DBE2;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.rcorners1 {
+    border-radius: 25px;
+    background: #87C4CB;
+    padding: 20px;
+    width: 50px;
+    height: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 25px 100px;
+
+
+    /* add box-shadow effect */
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 5px #888;
+}
+
+.rcorners1:hover {
+    box-shadow: 0 0 15px #888;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background-color: #79A2AB;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    grid-row: 3;
+    grid-column: 1 / 4;
+    /* position: fixed;
+    bottom: 0; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.left.img {
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#myHeading_1 {
+    margin-left: 20%; margin-top: -20%;text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 250%;
+}
+
+#myHeading_2{
+    margin-left:40S%; margin-top:-30S%;text-align:center; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 250S%
+}
+
+.container_1{
+    transform: translate(350px, 0px);
+}
+
+.container_2{
+    transform: translate(450px, 0px);
+}
+
+.container_3{
+    transform: translate(490px, 0px);
+}
+
+.container_h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 20px;
+    padding-right: 100 px;
+  }
+  
+  .box10 {
+    height: 150px;
+    width: 100%;
+    background-color: #7CC6CF;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    padding-top: 20px;
+}
+
+p3{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    margin-right: 30px;
+    transform: translate(0px, 20px);
+}
+
+.box5 {
+    width: 100px;
+    height: 180px;
+    float: right;
+    transform: translate(-400px, -400px);
+}
+
+p {
+    font-size: 30px;
+}
+
+.box9 {
+    transform: translate(280px, -350px);
+}
